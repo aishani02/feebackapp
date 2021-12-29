@@ -4,12 +4,12 @@ import {useParams,Navigate,useNavigate} from "react-router-dom"
 
 function Post() {
 const params=useParams()
-const navigate=useNavigate();
+
 const status =404
 
 
 
-if(status==404){
+if(status===404){
 
 return <Navigate  to="/notfound" />
 

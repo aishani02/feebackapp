@@ -1,4 +1,4 @@
-import propTypes from 'prop-types'
+
 import "./index.css"
 
 
@@ -16,7 +16,7 @@ function Header({text,color,bgColor}) {
 }
 
 
-console.log(Header.propTypes);
+
 
 Header.defaultProps ={
 
@@ -26,12 +26,7 @@ bgColor :  "blue"
 
 
 }
-Header.propTypes ={
 
-
-    text : propTypes.string
-    
-    }
 
 
 export default Header

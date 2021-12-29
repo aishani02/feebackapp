@@ -32,12 +32,12 @@ function onchange(event){
 
 
 setText(event.target.value)
-if(text=='')
+if(text==='')
 {
     setDisable(true)
     setMessage(null)
 }
-else if(text!=''  &&  text.length<=8)
+else if(text!==''  &&  text.length<=8)
 {
     setDisable(true)
     setMessage("The text should be atleast of 8 characters")
@@ -64,7 +64,7 @@ if(text.trim().length > 8){
         rating : Rating
       }
 //Edit Insert 
-   if(edit.edit==true){
+   if(edit.edit===true){
      
 
     addEdit(edit.item.id,newFeedBack)

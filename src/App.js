@@ -2,17 +2,16 @@
 import FeedbackList from "./FeedbackList";
 import Header from "./Header"
 import AboutPage from "./AboutPage";
-import { BrowserRouter as  Router,Route,Routes,Link , NavLink } from "react-router-dom";
+import { BrowserRouter as  Router,Route,Routes , NavLink } from "react-router-dom";
 import "./index.css"
 import Card from "./Card";
-import items from "./data.js"
-import React , { useState } from "react";
+
 import FeedbackStat from "./FeedbackStat";
 import Form from "./Form"
 import Abouticons from "./Abouticons";
 import Post from "./Post";
 
-import FeedBackContext, {FeedBackProvider} from "./FeedBackContext"
+import  {FeedBackProvider} from "./FeedBackContext"
 function App() {
 
 
